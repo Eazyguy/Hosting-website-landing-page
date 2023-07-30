@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<meta charset="utf-8" />
+<title>Product Landing</title>
+<link rel="stylesheet"  href="Productstyles.css">
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css' rel='stylesheet'/>
+</head>
+<body>
+<header id="header">
+<img id="header-img" src="https://images2.imgbox.com/94/4d/hRUyGnxZ_o.jpg" width="200px" height="50px" alt="EAZNAME"/>
+<nav id="nav-bar">
+<a class="nav-link" href="#header" >
+Home</a>
+<a class="nav-link" href="#about" >About</a>
+<a class="nav-link" href="#service" >Services</a>
+<a href="#Pricing" >Pricing</a>
+<a class="nav-link" href="#support" >Support</a>
+</nav>
+</header>
+
+<!--about Section-->
+
+<section id="about">
+<p class="desc">
+We offer top Premium Domains at Cheaper rates.
+</p>
+<form class="search">
+<input id ="search-domain" type="text" Placeholder="Search Domain">
+<input type="Submit" Value="Search Domain" id="submit-search">
+</form>
+</section>
+<marquee width="90%" direction="left" height="100px">
+Available Domains are .COM,.INFO,.NET,.EDU and many more....
+</marquee>
+
+<!--Service Section-->
+
+<section id="service">
+<h2>Our Services</h2>
+<video id ="video"src="" poster="https://img.freepik.com/free-photo/satisfied-carefree-female-model-smiles-gently-touches-chin-looks-aside-notices-funny-scene-laughs-something-has-natural-curly-dark-hair-dressed-casually-isolated-pink-wall_273609-27918.jpg"
+
+width="500px" height="350px" controls>
+</video>
+<div class="servicewrap">
+<div class="service-list">
+<i class="fa-solid fa-house"></i>
+<h3>Affordable Hosting</h3>
+We offer very Cheap hosting services at affordable prices.
+</div>
+<div class="service-list">
+<i class="fa-solid fa-globe"></i>
+<h3>Free Domain</h3>
+We offer free domain in addition to the web hosting services you bought, you can also buy a domain separately 
+</div>
+<div class="service-list">
+<i class="fa-brands fa-wordpress"></i>
+<h3>Web Design</h3>
+We offer free domain in addition to the web hosting services you bought, you can also buy a domain separately 
+</div>
+<div class="service-list">
+<i class="fa-solid fa-user"></i>
+<h3>Premium Support</h3>
+We offer free domain in addition to the web hosting services you bought, you can also buy a domain separately 
+</div>
+</div>
+</section>
+<!--Pricing Section-->
+<section id="Pricing">
+<h2>Pricing</h2>
+<div class="pricewrap">
+<div class="pricing-list">
+<h3>Shared Hosting</h3>
+<p class="price">$20/<span style="font-weight:400; font-size:30px">Month
+</span></p>
+<hr>
+<p>Storage: 5GB</p>
+<p>Bandwidth: 25GB</p>
+<p>Free Domain</p>
+<p>Cpanel</p>
+<p>Premium Support</p>
+<p>Suftoculous Installer</p>
+<p>Node.js</p>
+<button>Purchase Now</button>
+</div>
+<div class="pricing-list">
+<h3>Bussiness Hosting</h3>
+<p class="price">$50/<span style="font-weight:400; font-size:30px">Month
+</span></p>
+<hr>
+<p>Storage: 25GB</p>
+<p>Bandwidth: 75GB</p>
+<p>Free Domain</p>
+<p>Cpanel</p>
+<p>Premium Support</p>
+<p>Suftoculous Installer</p>
+<p>Node.js</p>
+<p>Wordpress hosting</p>
+<button>Purchase Now</button>
+</div>
+<div class="pricing-list">
+<h3>Premium Hosting</h3>
+<p class="price">$100/<span style="font-weight:400; font-size:30px">Month
+</span></p>
+<hr>
+<p>Storage: 25GB</p>
+<p>Bandwidth: 75GB</p>
+<p>Free Domain</p>
+<p>Cpanel</p>
+<p>Premium Support</p>
+<p>Suftoculous Installer</p>
+<p>Node.js</p>
+<p>Wordpress hosting</p>
+<p>VPS hosting</p>
+<p>One Page Wordpress website design</p>
+<button>Purchase Now</button>
+</div>
+</div>
+</section>
+<!--Support Section-->
+<section id="support">
+<h2>Contact Us</h2>
+<div class="formwrap">
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<label>Fullname:</label> <input type="text" id="name"><br>
+<label>Email:</label> <input type="email" id="email" Placeholder="name@example.com" name="email"><br>
+<label>Subject:</label> <input type="text" id="subject"><br>
+<label>Message</label><br><textarea></textarea>
+<input type="submit" id="submit">
+</form>
+</div>
+</section>
+<!--footer-->
+<footer>
+<p>Design by Israel Johnson, ©FreeCodeCamp
+</footer>
+<script type="text/javascript">
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("nav-bar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else{
+    navbar.classList.remove("sticky");
+  }
+}
+
+</script>
+</body>
+</html>
