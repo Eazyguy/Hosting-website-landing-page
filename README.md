@@ -9,4 +9,5 @@ Landing page for website hosting companies with a very simple black and white de
 - Features section
   and so on.
 
-  
+  ## Demo
+**[Click here to preview the project](https://eazyguy.github.io/Hosting-website-landing-page/)**
