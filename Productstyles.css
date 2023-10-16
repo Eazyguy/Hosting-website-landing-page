@@ -215,154 +215,184 @@ i{
 font-size:60px;
 }
 
+#top svg{
+margin-bottom : -30px;
+stroke: white;
+}
+
+#top span {
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 white,
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white ;
+    1px 1px 0 white ;
+}
+
+#top{
+  text-decoration: none;
+  color:black;
+  margin:0;
+  border:0;
+  background-color: transparent;
+  width:80px;
+  height: 60px;
+  display:none;
+ position: fixed;
+  right:20px;
+  bottom: 30px;
+  z-index: 5;
+  margin-right: -20px;
+  overflow: hidden;
+}
+
 /*Mobile Section*/
 
 @media screen and (max-width:600px){
 
-/*header Section*/
-
-  body{
-font-size:17px;
-font-family:san-serif;
-width:100%;
-Margin:0px;
-}
-
-#header{
-border-bottom:none;
-}
-
-#header-img{
-margin:10px auto ;
-display:flex
-}
-
-h1{float:none;
-text-align:center;
-width:100%;
-}
-
-h2{
-Margin:10px auto 40px auto;
-font-weight:800;
-}
-/*Navigation Section*/
-#nav-bar{
-padding:10px;
-background-color:black;
-z-index:100;
-width:100%;
-margin:0;
-height:30px;
-float:none;
-}
-
-#nav-bar a {
-color:white;
-text-decoration:none;
-list-style-type:none;
-margin:auto;
-padding:2px 5px;
-
-}
-
-/*Search Section*/
-
-.search{
-margin: 50px auto;
-width:100%;
-flex-direction:column;
-}
-
-#search-domain{
-width:250px;
-height:25px;
-border:2px Solid Black;
-Position:relative;
-border-radius:2px;
-z-index:55;
-justify-content:center;
-align-self:center;
-}
-
-#submit-search{
-width:100px;
-height:30px;
-font-size:15px;
-border: 2px solid black;
-border-radius:2px;
-align-self:center;
-}
-
-/*Service Section*/
-
-.service-list{
-float:none;
-Margin:0 auto 10px auto
-}
-
-.servicewrap{
-display:block;
-}
-
-/*Pricing Section*/
-
-.pricewrap {
-display:block
-}
-
-/*Support Section*/
-
-#form{
-width:100%;
-Margin:10px 10px;
-}
-
-.formwrap{
-display:flex;
-}
-
-textarea{
-margin:5px auto 5px 80px;
-width:230px;
-height:100px
-}
-
-#form input:not(#submit){
-width:210px;
-height:20px
-}
-
-#form label{
-font-weight:500;
-}
-
-#submit{
-background-color:black;
-color:white;
-width:90px;
-height:35px;
-display:flex;
-justify-content:center;
-font-size:17px;
-}
-
-
-.sticky{
-position:fixed;
-top:0px;
-width:100%
-}
-
-i{
-margin:15px 0 -25px 0;
-}
-
-#video{
-width:300px;
-height:200px
-}
-}
+  body{ 
+ font-size:17px; 
+ font-family:san-serif; 
+ width:100%; 
+ Margin:0px; 
+ } 
+  
+ #header{ 
+ border-bottom:none; 
+ } 
+  
+ #header-img{ 
+ margin:10px auto ; 
+ display:flex 
+ } 
+  
+ h1{float:none; 
+ text-align:center; 
+ width:100%; 
+ } 
+  
+ h2{ 
+ Margin:10px auto 40px auto; 
+ font-weight:800; 
+ } 
+ /*Navigation Section*/ 
+ #nav-bar{ 
+ padding:10px; 
+ background-color:black; 
+ z-index:100; 
+ width:100%; 
+ margin:0; 
+ height:30px; 
+ float:none; 
+ } 
+  
+ #nav-bar a { 
+ color:white; 
+ text-decoration:none; 
+ list-style-type:none; 
+ margin:auto; 
+ padding:2px 5px; 
+  
+ } 
+  
+ /*Search Section*/ 
+  
+ .search{ 
+ margin: 50px auto; 
+ width:100%; 
+ flex-direction:column; 
+ } 
+  
+ #search-domain{ 
+ width:250px; 
+ height:25px; 
+ border:2px Solid Black; 
+ Position:relative; 
+ border-radius:2px; 
+ z-index:55; 
+ justify-content:center; 
+ align-self:center; 
+ } 
+  
+ #submit-search{ 
+ width:100px; 
+ height:30px; 
+ font-size:15px; 
+ border: 2px solid black; 
+ border-radius:2px; 
+ align-self:center; 
+ } 
+  
+ /*Service Section*/ 
+  
+ .service-list{ 
+ float:none; 
+ Margin:0 auto 10px auto 
+ } 
+  
+ .servicewrap{ 
+ display:block; 
+ } 
+  
+ /*Pricing Section*/ 
+  
+ .pricewrap { 
+ display:block 
+ } 
+  
+ /*Support Section*/ 
+  
+ #form{ 
+ width:100%; 
+ Margin:10px 10px; 
+ } 
+  
+ .formwrap{ 
+ display:flex; 
+ } 
+  
+ textarea{ 
+ margin:5px auto 5px 80px; 
+ width:230px; 
+ height:100px 
+ } 
+  
+ #form input:not(#submit){ 
+ width:210px; 
+ height:20px 
+ } 
+  
+ #form label{ 
+ font-weight:500; 
+ } 
+  
+ #submit{ 
+ background-color:black; 
+ color:white; 
+ width:90px; 
+ height:35px; 
+ display:flex; 
+ justify-content:center; 
+ font-size:17px; 
+ } 
+  
+  
+ .sticky{ 
+ position:fixed; 
+ top:0px; 
+ width:100% 
+ } 
+  
+ i{ 
+ margin:15px 0 -25px 0; 
+ } 
+  
+ #video{ 
+ width:300px; 
+ height:200px 
+ } 
+ }
 @media(prefers-reduced-motion:no-preference){
 *{
 scroll-behavior:smooth;
